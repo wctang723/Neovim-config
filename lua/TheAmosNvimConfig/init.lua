@@ -15,6 +15,7 @@ vim.api.nvim_set_hl(0, 'TroubleNormal', { link = 'Normal' })
 vim.api.nvim_set_hl(0, 'TroubleNormalNC', { link = 'Normal' })
 -- vim.cmd 'highlight TelescopeSelection cterm=bold gui=bold guifg=#a6e3a1'
 
+-- Minipair setting for .html
 autocmd('TextYankPost', {
   group = yank_group,
   desc = 'Highlight when yanking text',

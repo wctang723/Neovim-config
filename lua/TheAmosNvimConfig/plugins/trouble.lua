@@ -8,17 +8,17 @@ return {
     keys = {
       {
         '<leader>xx',
-        '<cmd>Trouble diagnostics toggle <cr>',
+        '<cmd>Trouble diagnostics <cr>',
         desc = 'Diagnostics (Trouble)',
       },
       {
         '<leader>xX',
-        '<cmd>Trouble diagnostics toggle filter.buf=0<cr>',
+        '<cmd>Trouble diagnostics filter.buf=0<cr>',
         desc = 'Buffer Diagnostics (Trouble)',
       },
       {
         '<leader>cs',
-        '<cmd>Trouble symbols toggle focus = true<cr>',
+        '<cmd>Trouble symbols focus = true<cr>',
         desc = 'Symbols (Trouble)',
       },
       {

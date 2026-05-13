@@ -23,7 +23,7 @@ return {
       },
       {
         '<leader>td',
-        '<cmd>Trouble todo filter = {tag = {TODO,FIX}}<cr>',
+        '<cmd>Trouble todo filter = {tag = {TODO, FIX, HACK, WARN, PERF, NOTE, INFO, TEST}}<cr>',
         desc = 'Quickfix List (Trouble)',
       },
     },

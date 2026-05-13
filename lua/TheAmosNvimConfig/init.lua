@@ -63,5 +63,24 @@ autocmd('LspAttach', {
     map('<leader>rn', vim.lsp.buf.rename, '[R]e[n]ame')
     map('<leader>ca', vim.lsp.buf.code_action, '[C]ode [A]ction', { 'n', 'x' })
     map('gD', vim.lsp.buf.declaration, '[G]oto [D]eclaration')
+
+    vim.diagnostic.config {
+      virtual_text = {
+        prefix = '●',
+        spacing = 4,
+      },
+      signs = {
+        text = {
+          [vim.diagnostic.severity.ERROR] = '',
+          [vim.diagnostic.severity.WARN] = '',
+          [vim.diagnostic.severity.INFO] = '',
+          [vim.diagnostic.severity.HINT] = '',
+        },
+        active = true,
+      },
+      underline = true,
+      update_in_insert = false, -- Don't update diagnostics while in insert mode
+      severity_sort = true,
+    }
   end,
 })

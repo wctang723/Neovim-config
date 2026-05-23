@@ -16,6 +16,7 @@ return {
       color_overrides = {
         mocha = {
           surface2 = '#494d64',
+          -- surface1 = '#2a2b3c',
           -- yellow = '#FFEDC6',
           yellow = '#eeecbf',
         },
@@ -24,7 +25,7 @@ return {
         mocha = function(mocha)
           return {
             Comment = { fg = mocha.surface2 },
-            Visual = { bg = mocha.yellow },
+            Visual = { bg = '#57657E' },
             IncSearch = { bg = mocha.rosewater },
             CurSearch = { bg = mocha.flamingo },
           }

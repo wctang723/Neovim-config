@@ -18,7 +18,7 @@ return {
               ['<C-y>'] = actions.preview_scrolling_up,
               ['<C-e>'] = actions.preview_scrolling_down,
               ['<C-f>'] = actions.preview_scrolling_right,
-              ['<C-j>'] = actions.preview_scrolling_left,
+              ['<C-b>'] = actions.preview_scrolling_left,
               ['<C-d>'] = actions.delete_buffer + actions.move_to_top,
               ['<M-q>'] = actions.send_to_qflist + actions.open_qflist,
               ['<C-q>'] = actions.send_selected_to_qflist + actions.open_qflist,

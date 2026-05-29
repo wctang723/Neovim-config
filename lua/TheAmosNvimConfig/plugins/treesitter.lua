@@ -2,8 +2,11 @@ return {
   { -- Highlight, edit, and navigate code
     'nvim-treesitter/nvim-treesitter',
     build = ':TSUpdate',
-    branch = 'master',
+    -- INFO: master branch is for nvim before 0.12
+    -- branch = 'master',
+    branch = 'main',
     -- [[ Configure Treesitter ]] See `:help nvim-treesitter`
+    -- INFO: dependence: need tree-sitter-cli installed
     config = function()
       local filetypes = { 'bash', 'c', 'diff', 'html', 'lua', 'luadoc', 'query', 'vim', 'vimdoc', 'go', 'sql' }
       require('nvim-treesitter').setup {

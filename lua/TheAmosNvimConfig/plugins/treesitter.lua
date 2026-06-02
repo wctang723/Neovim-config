@@ -30,6 +30,7 @@ return {
               generate_from_json = false,
               -- queries = 'queries',
             },
+            tier = 2,
           }
         end,
       })

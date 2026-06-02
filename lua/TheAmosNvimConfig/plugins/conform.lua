@@ -22,7 +22,7 @@ return {
             prepend_args = { '-style=file', '-fallback-style=LLVM' },
           },
           ['pg_format'] = {
-            prepend_args = { '--comma-break', '--no-extra-line' },
+            prepend_args = { '--no-extra-line' },
           },
         },
       }

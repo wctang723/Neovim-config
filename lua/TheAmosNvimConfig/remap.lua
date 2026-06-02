@@ -31,3 +31,5 @@ vim.keymap.set('n', '<C-=>', '<C-w>+')
 vim.keymap.set('n', '<C-->', '<C-w>-')
 vim.keymap.set('n', '<C-,>', '<C-w><')
 vim.keymap.set('n', '<C-.>', '<C-w>>')
+
+vim.keymap.set('n', '<leader>ft', '<cmd>TodoTelescope<CR>')

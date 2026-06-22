@@ -12,7 +12,7 @@ return {
           cpp = { 'clang-format' },
           lua = { 'stylua' },
           go = { 'gofmt' },
-          sql = { 'pg_format' },
+          -- sql = { 'pg_format' },
           -- javascript = { "prettier" },
           -- typescript = { "prettier" },
           -- elixir = { "mix" },
